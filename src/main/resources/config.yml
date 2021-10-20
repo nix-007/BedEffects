@@ -1,0 +1,4 @@
+equipped-message: "&6&lBedEffects &7>> &fYou equipped &b&l{effect} Effect&7!"
+unequipped-message: "&6&lBedEffects &7>> &fYou unequipped your current bed destroy effect."
+no-permission-message: "&c&l(!) &cYou do not have permission to do this."
+reload-message: "&6&lBedEffect &7>> &aPlugin reloaded successfully!"

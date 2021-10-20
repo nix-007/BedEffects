@@ -1,0 +1,6 @@
+name: BedEffect
+version: ${project.version}
+main: nix.bedeffect.Main
+commands:
+  bedeffect:
+    description: "BedEffect"

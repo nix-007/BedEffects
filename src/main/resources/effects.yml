@@ -1,0 +1,175 @@
+title: "Bed Destroy Effects"
+size: 54
+filler: STAINED_GLASS_PANE
+data: 7
+
+not-available-lore:
+  - ""
+  - "&7This item can be found in &cLootBox&7."
+  - ""
+  - "&c&l(!) &cYou do not own this item."
+
+not-available-item:
+  material: INK_SACK
+  data: 8
+
+unequip-item:
+  name: "&c&lunequip"
+  material: BARRIER
+  lore:
+    - "&7Unequip your current bed destroy effect."
+
+effects:
+  lightning:
+    enable: true
+    name: "&b&lLightning"
+    material: BEACON
+    data: 0
+    amount: 1
+    slot: 10
+    lore:
+      - ""
+      - "&7Summon lightning strike on bed break."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+  explosion:
+    enable: true
+    name: "&b&lExplosion"
+    material: TNT
+    data: 0
+    amount: 1
+    slot: 11
+    lore:
+      - ""
+      - "&7Create a huge explosion on bed break."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+  squid:
+    enable: true
+    name: "&b&lSquid Launcher"
+    material: INK_SACK
+    data: 0
+    amount: 1
+    slot: 12
+    lore:
+      - ""
+      - "&7Launch a squid rocket into air."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+
+  firework:
+    enable: true
+    name: "&b&lFireworks"
+    material: FIREWORK
+    data: 0
+    amount: 1
+    slot: 13
+    lore:
+      - ""
+      - "&7Explode the firework."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+  lavapop:
+    enable: true
+    name: "&b&lLava Pop"
+    material: LAVA_BUCKET
+    data: 0
+    amount: 1
+    slot: 14
+    lore:
+      - ""
+      - "&7Make Lava Pop from Bed."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+  snow:
+    enable: true
+    name: "&b&lSnow Effect"
+    material: SNOW_BALL
+    data: 0
+    amount: 1
+    slot: 15
+    lore:
+      - ""
+      - "&7Snow will fall for you."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+  bedbug:
+    enable: true
+    name: "&b&lBed Bugs"
+    material: MONSTER_EGG
+    data: 67
+    amount: 1
+    slot: 16
+    lore:
+      - ""
+      - "&7Summon Bed Bugs."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+
+  tornado:
+    enable: true
+    name: "&b&lTornado"
+    material: STRING
+    data: 0
+    amount: 1
+    slot: 19
+    lore:
+      - ""
+      - "&7Summon Tornado."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+  thief:
+    enable: true
+    name: "&b&lThief Effect"
+    material: EYE_OF_ENDER
+    data: 0
+    amount: 1
+    slot: 20
+    lore:
+      - ""
+      - "&7Steal the enemy bed."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+  pigexplosion:
+    enable: true
+    name: "&b&lPig Explosion Effect"
+    material: INK_SACK
+    data: 9
+    amount: 1
+    slot: 21
+    lore:
+      - ""
+      - "&7Summon the magical pigs."
+      - ""
+      - "&a&l(!) &aClick to equip!"
+
+
+
+  eggpop:
+    enable: true
+    name: "&b&lEgg Bomb"
+    material: EGG
+    data: 0
+    amount: 1
+    slot: 22
+    lore:
+      - ""
+      - "&7Chicken Bomb."
+      - ""
+      - "&a&l(!) &aClick to equip!"
