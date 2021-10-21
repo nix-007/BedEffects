@@ -5,6 +5,8 @@ import nix.bedeffect.data.Loader;
 import nix.bedeffect.data.SQLite;
 import nix.bedeffect.event.bedBrokeEvent;
 import nix.bedeffect.event.basicListeners;
+import nix.bedeffect.utils.PapiHook;
+import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.io.IOException;
@@ -29,6 +31,11 @@ public final class Main extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new basicListeners(this), this);
 
         getCommand("bedeffect").setExecutor(new bedEffect(this));
+
+        if(Bukkit.getPluginManager().getPlugin("PlaceholderAPI") != null) {
+            new PapiHook(this).register();
+            this.getLogger().info("Hooked in PAPI.");
+        }
 
     }
     @Override

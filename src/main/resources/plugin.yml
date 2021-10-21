@@ -1,6 +1,8 @@
 name: BedEffect
 version: ${project.version}
 main: nix.bedeffect.Main
+softdepend:
+  - PlaceholderAPI
 commands:
   bedeffect:
     description: "BedEffect"
